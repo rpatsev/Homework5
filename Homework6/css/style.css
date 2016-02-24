@@ -1,0 +1,175 @@
+.wrapper{
+	margin: 0 auto;
+	width:900px;
+	font-family:Tahoma;
+}
+
+a {
+	text-decoration:none;
+}
+
+				/*header*/
+				
+.loginfield{
+	background: linear-gradient(to top, #0c3256, #13497c);
+	margin: 20px 0 10px 0;
+	border-radius: 3px;
+	height:25px;
+	box-shadow:4px 4px 0 gray;
+	
+}
+
+header img{
+	width:100%;
+}
+
+.mainmenu{
+	background: linear-gradient(to top, #010101, #3a4046);
+	border-radius:3px;
+	height:35px;
+}
+
+.mainmenu li{
+	display:inline;
+	text-transform:uppercase;
+    margin: 15px;
+	padding:10px;
+}
+
+.mainmenu li:hover{
+	color:white;
+	background: linear-gradient(to top, #0c3256, #13497c);
+	border-radius:30px;
+}
+
+.mainmenu li a{
+	color:white;
+}
+
+				/*content*/
+				
+.content{
+	clear:both;
+}
+
+				/*sidebar*/
+				
+.sidebar{
+	float:left;
+	width:175px;
+}
+
+.header{
+	border:1px solid black;
+	border-radius: 10px;
+	padding:5px 5px 5px 35px;
+	box-shadow:1px 1px 3px black;
+}
+
+.products li{
+	border:1px solid black;
+	border-radius: 10px;
+	padding:5px 5px 5px 35px;
+}
+
+				/*main*/
+
+main{
+	text-align:center;
+	float:left;
+	width:525px;
+	background: linear-gradient(to top, #93a7b0, #e5e7e8);
+	border-radius:2px;
+	margin: 0 12px;
+}
+
+.pic{
+	height:130px;
+	width:130px;
+	border:1px solid gray;
+	border-radius:5px;
+	background-color:white;
+	
+}
+
+.line1 a,
+.line2 a,
+.line3 a{
+	float:left;
+	margin:20px;
+}
+
+h1{
+	font-weight:bold;
+
+}
+
+h2{
+	color:black;
+}
+
+main p{
+	font-weight:bold;
+	font-style:italic;
+}
+
+					/* aside */
+
+aside{
+	float:left;
+	width:175px;
+}
+
+.brands li{
+	border:1px solid black;
+	border-radius: 10px;
+	padding:5px 5px 5px 35px;
+}
+
+.selection{
+	color:white;
+	border-radius: 10px;
+	background: linear-gradient(to top, #0c3256, #13497c);
+}
+
+				/*footer*/
+				
+
+.sponsor{
+	text-align:center;
+	margin:30px;
+	clear:both;
+    padding: 35px 0px;
+}
+				
+footer{
+	text-align:center;
+	background: #123a4d
+}
+
+.footermenu{
+	padding-top: 10px;
+}
+
+.footermenu li{
+	display:inline;
+	border-right: 1px solid white;
+	padding: 0 20px;
+
+}
+
+.footermenu li:last-child{
+	border-right: none;
+}
+
+.footermenu li a{
+	color:white;
+}
+
+footer p{
+	font-size:12px;
+	color: #7f4740;
+	margin-top:20px;
+	padding-bottom:40px;
+}
+
