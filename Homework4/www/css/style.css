@@ -1,7 +1,5 @@
-.background{
+body{
 	background-image: url(../img/bg.png);
-	height: 100%;
-	width: 100%;
 }
 
 .whitelist{
@@ -17,7 +15,7 @@ p{
 
 			/*header*/
 .logo{
-    width: 33%;
+    width: 329px;
 	float:left;
 }	
 img{
@@ -49,40 +47,36 @@ img{
 
 .menu ul.country li{
 	float: right;
-	margin-left: 5px;
-    margin-right: 0px;
-    width: 11%;
+    width: 70px;
 	text-align: center;
-	font-size: 0.9em;
 }
 
 .menu ul.country li a{
 	font-family: Arial;
-	font-size: 0.75em;
+	font-size: 11px;
 	color: #128aa7;
+}
+
+.menu ul.country li a img{
+	width:50px;
 }
 
 header{
 	background: linear-gradient(to top, #474747,#5c5c5c);
 	height: 35px;
-	box-shadow: 0 2px 6px black;
+	box-shadow: 0 -2px 14px black;
 }
 
 header a{
 	color: white;
 	text-decoration: none;
 }
-
-ul.header {
-	margin: 0; 
-	padding: 8px;
-}
-   
+ 
 ul.header li {
 	float:left;
 	list-style-type:none;
 	position:relative;
-	margin: 0 25px; 
+	padding: 8px 25px;
 	color: white;
 	font-family: arial;
 	text-shadow: 1px 1px 1px black;
@@ -93,20 +87,24 @@ ul.header li {
 	display:none;
 	position: absolute;
 	left: 0;
-	top: 150%;
+	top: 100%;
 	margin: 0;
 	width: 170px;
 	background:linear-gradient(to top, #474747,#5c5c5c);
 	border: 1px solid black;
-	line-height: 2em;
-	 
+	line-height: 1.5em;
  }
  
  ul.header li:hover ul{
 	display: block;
-	
-	
 } 
+
+.content{
+	width:100%;
+	float:left;
+	background:url(../img/bg2.png) repeat-y;
+	background-size:contain;
+}
    			/*sidebar*/
 			
 h1 {
@@ -116,36 +114,34 @@ h1 {
 	font-size: 1.5em;
 	text-align:center;
 	padding: 10px;
-	
 }
+
 .sidebar{
-	width: 25%;
+	width: 17%;
 	float: left;
-	background-color:#edeef0;
 	padding: 2%;
-	border: 1px solid gray;
 	text-align:center;
-	height:100%;
 }	
 			/*news + sidebar*/
 .sidebar p,
 .news p{
 	color: grey;
 	line-height:30px;
+	font-size:14px;
 }
+			/*container*/
+			
+.container{
+	width:60%;
+	float:left;
+}			
 
-.news,
-.sidebar {
-	margin-top:2px;
-}
 			/*news*/
 
 .news{
-	width: 20%;
+	width: 17%;
 	float: right;
-	background-color:#edeef0;
 	padding: 2%;
-	border: 1px solid gray;
 	text-align:center;
 }
 	
@@ -156,7 +152,7 @@ h1 {
 }
 			/*footer*/
 			
-			.rights{
+.rights{
 	text-align:center;
 	color: white;
 	padding-bottom: 1%;
